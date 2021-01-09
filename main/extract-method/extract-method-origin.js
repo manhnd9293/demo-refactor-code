@@ -1,11 +1,3 @@
-function getOutstanding(invoice) {
-    let outstanding = 0;
-    for (const o of invoice.orders) {
-        outstanding += o.amount;
-    }
-    return outstanding;
-}
-
 function printInvoice(invoice) {
     //print header
     console.log("***********************");

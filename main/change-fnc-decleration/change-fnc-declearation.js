@@ -2,7 +2,8 @@ class Customer {
 
 }
 
-const reservationQueue = []
+const reservationQueue = [];
+
 
 function addReservation(aCustomer, priority) {
     reservationQueue.push(aCustomer);
